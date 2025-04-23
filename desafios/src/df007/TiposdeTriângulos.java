@@ -17,9 +17,9 @@ public class TiposdeTriângulos {
             System.out.println("Não forma um triângulo");
         } else if (a==b && b==c) {
             System.out.println("É um triângulo equilátero");
-        } else if (a==b ^ b==c) {
+        } else if (a==b ^ b==c ^ a==c) {
             System.out.println("É um triângulo isóseles");
-        } else if (a!=b && b!=c) {
+        } else if (a!=b && b!=c && a!=c) {
             System.out.println("É um triângulo escaleno");
         }
     }
