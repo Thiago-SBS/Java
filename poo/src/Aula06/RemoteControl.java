@@ -11,7 +11,7 @@ public class RemoteControl implements Controller {
         this.play = false;
     }
 
-    private   void setVolume(int vol) {
+    private void setVolume(int vol) {
         this.volume = vol;
     }
     private int getVolume() {
